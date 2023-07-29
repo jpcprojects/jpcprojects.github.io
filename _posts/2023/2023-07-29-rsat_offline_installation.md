@@ -8,8 +8,6 @@ tags: [windows11]
 <img src="/assets/img/posts/2023/rsat_offline_installation/rsat_offline_installation.jpg" alt="RSAT Installation & Configuration on an Offline Windows 11 Machine" style="height:400px; width:600px;" />
 
 
-# RSAT Configuration on an Offline Windows 11 Machine
-
 Remote Server Administration Tools (RSAT) is a set of tools that allows IT administrators to manage Windows Servers remotely from their local machines. In this  post, we will guide you through the process of installing and configuring RSAT on an offline Windows 11 machine. This is useful in scenarios where the target machine does not have direct internet access.
 
 ## Prerequisites
