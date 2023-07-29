@@ -17,12 +17,12 @@ In RHEL (Red Hat Enterprise Linux), you can unlock a locked user account using t
 ```bash
 faillock --user <username>
 ```
-_Replace <username> with the username of the account you want to unlock._
+*Replace <username> with the username of the account you want to unlock.*
 - If the user account is locked, you will see the account information with the "Account locked" status. To unlock the account, run the following command:
 ```bash
 faillock --user <username> --reset
 ```
-_Replace <username> with the username of the account you want to unlock._
+*Replace <username> with the username of the account you want to unlock.*
 - After executing the command, the account will be unlocked, and you will see a success message indicating that the user account has been reset.
-- To verify the account status, you can re-run the faillock --user <username> command. The status should now show as "Account not locked."
+- To verify the account status, you can re-run the **faillock --user <username>** command. The status should now show as "Account not locked."
 That's it!!! You have successfully unlocked a locked RHEL user account using the faillock command. Remember to replace <username> with the actual username of the account you want to unlock...
