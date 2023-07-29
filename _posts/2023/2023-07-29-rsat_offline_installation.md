@@ -5,6 +5,9 @@ categories: [windows11]
 tags: [windows11]
 ---
 
+<img src="/assets/img/posts/2023/rsat_offline_installation/rsat_offline_installation.jpg" alt="RSAT Installation & Configuration on an Offline Windows 11 Machine" style="height:400px; width:600px;" />
+
+
 # RSAT Installation & Configuration on an Offline Windows 11 Machine
 
 Remote Server Administration Tools (RSAT) is a set of tools that allows IT administrators to manage Windows Servers remotely from their local machines. In this  post, we will guide you through the process of installing and configuring RSAT on an offline Windows 11 machine. This is useful in scenarios where the target machine does not have direct internet access.
@@ -26,7 +29,7 @@ Follow these steps to install and configure RSAT on an offline Windows 11 machin
 3. Launch the Services application as admin<br>
 4. Start the Windows Update (wuauserv) service<br>
 5. Launch PowerShell as a local admin<br>
-        Run the following commands:
+        Run the following commands:<br><br>
 ```bash
 cd D: (or to the path in which you saved the Features on Demand files)
 ```
@@ -37,7 +40,7 @@ Get-WindowsCapability –Online | Where-Object Name –like ‘RSAT*’
 Add-WindowsCapability –Online –Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 –Source .\ -LimitAccess
 ```
 6. You may repeat these steps to install any RSAT tools or any other tools available within the Features on Demand disc.<br>
-        For example, to install **DNS** and **Group Policy**, do the following:
+        For example, to install **DNS** and **Group Policy**, do the following:<br><br>
 ```bash
 Add-WindowsCapability –Online –Name Rsat.Dns.Tools~~~~0.0.1.0 –Source .\ -LimitAccess
 ```
