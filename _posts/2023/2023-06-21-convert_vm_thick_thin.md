@@ -74,16 +74,12 @@ Follow these steps to clean up the old thick provisioned files:
 3. Browse to the virtual machine directory.
 4. Select the original thick .vmdk file (WIN10PC.vmdk.thick earlier).
 5. Click "Delete" and confirm the action.
-
 **Alternatively, you can run the following commands from the server's host command:**
-
 ```bash
 cd /vmfs/volumes/5a0ce14d-5574951d-af28-4ccc6a87617d/WIN10PC
 rm -rf WIN10PC.vmdk.thick
 ```
-
 **VIP: BE CAREFUL ON THE NEXT STEP**
-
 6. Rename the "WIN10PC-flat.vmdk" file:
 ```bash
 mv WIN10PC-flat.vmdk WIN10PC-flat.vmdk.OLD
@@ -93,6 +89,5 @@ mv WIN10PC-flat.vmdk WIN10PC-flat.vmdk.OLD
 ```bash
 rm -rf WIN10PC-flat.vmdk.OLD
 ```
-
 Congratulations! You have successfully converted a vSphere VM from thick to thin provisioning. By doing so, you have optimized your storage utilization and improved resource efficiency.
 
