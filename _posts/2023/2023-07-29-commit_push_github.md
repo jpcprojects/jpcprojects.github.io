@@ -30,7 +30,7 @@ git clone https://github.com/your-username/your-repo.git
 ```bash
 cd your-repo
 ```
-*Remember, replace **your-repo** with the name of your repository.*<br> <br>
+*Remember, replace **your-repo** with the name of your repository.*<br>
 3. **Make Changes**: Make the necessary updates to the files in the repository using your preferred text editor or IDE.<br>
 4. **Stage the Changes**: Stage the changes you made for the next commit using the following command:
 ```bash
