@@ -39,7 +39,7 @@ Get-WindowsCapability –Online | Where-Object Name –like ‘RSAT*’
 ```bash
 Add-WindowsCapability –Online –Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 –Source .\ -LimitAccess
 ```
-<br><br>
+<br>
 6. You may repeat these steps to install any RSAT tools or any other tools available within the Features on Demand disc.<br>
         For example, to install **DNS** and **Group Policy**, do the following:<br><br>
 ```bash
@@ -48,7 +48,7 @@ Add-WindowsCapability –Online –Name Rsat.Dns.Tools~~~~0.0.1.0 –Source .\ -
 ```bash
 Add-WindowsCapability –Online –Name Rsat.GroupPolicy.Management.Tools~~~~0.0.1.0 –Source .\ -LimitAccess
 ```
-<br><br>
+<br>
 7. Reboot and confirm that Active Directory Users and Computers, DNS, and Group Policy Management is installed on your offline Windows 11 machine.<br>
 
 ## Conclusion
