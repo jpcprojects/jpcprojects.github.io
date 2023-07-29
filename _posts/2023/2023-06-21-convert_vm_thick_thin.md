@@ -30,7 +30,6 @@ Follow these steps to convert the VM to thin provisioning:
 7. Click on the virtual disk (.vmdk) file name link.
 8. Copy the location path value displayed (e.g., /vmfs/volumes/5a0ce14d-5574951d-af28-4ccc6a87617d) and paste it into the text document.
 9. Connect to the ESXi host via SSH.
-
 10. Run the following commands:
 
 ```bash
@@ -84,17 +83,12 @@ rm -rf WIN10PC.vmdk.thick
 ```
 
 **VIP: BE CAREFUL ON THE NEXT STEP**
-
 6. Rename the "WIN10PC-flat.vmdk" file:
-
 ```bash
 mv WIN10PC-flat.vmdk WIN10PC-flat.vmdk.OLD
 ```
-
 7. Launch the VM to ensure that it turns on successfully. If it does, proceed to the final step.
-
 8. Delete the old "WIN10PC-flat.vmdk.OLD" and keep the "WIN10PC-thin-flat.vmdk" file. If you skip this step, extra storage will be allocated on the storage device.
-
 ```bash
 rm -rf WIN10PC-flat.vmdk.OLD
 ```
