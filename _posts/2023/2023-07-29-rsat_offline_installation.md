@@ -29,7 +29,7 @@ Follow these steps to install and configure RSAT on an offline Windows 11 machin
 3. Launch the Services application as admin<br>
 4. Start the Windows Update (wuauserv) service<br>
 5. Launch PowerShell as a local admin<br>
-        Run the following commands:<br><br>
+        Run the following commands:<br>
 ```bash
 cd D: (or to the path in which you saved the Features on Demand files)
 ```
@@ -41,7 +41,7 @@ Add-WindowsCapability –Online –Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0
 ```
 <br>
 6. You may repeat these steps to install any RSAT tools or any other tools available within the Features on Demand disc.<br>
-        For example, to install **DNS** and **Group Policy**, do the following:<br><br>
+        For example, to install **DNS** and **Group Policy**, do the following:<br>
 ```bash
 Add-WindowsCapability –Online –Name Rsat.Dns.Tools~~~~0.0.1.0 –Source .\ -LimitAccess
 ```
