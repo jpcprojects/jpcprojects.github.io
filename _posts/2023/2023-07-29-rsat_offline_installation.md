@@ -1,5 +1,5 @@
 ---
-title: RSAT Installation & Configuration on an Offline Windows 11 Machine
+title: RSAT Configuration on an Offline Windows 11 Machine
 date: 2023-07-29 05:00:00 -0500
 categories: [windows11]
 tags: [windows11]
@@ -8,7 +8,7 @@ tags: [windows11]
 <img src="/assets/img/posts/2023/rsat_offline_installation/rsat_offline_installation.jpg" alt="RSAT Installation & Configuration on an Offline Windows 11 Machine" style="height:400px; width:600px;" />
 
 
-# RSAT Installation & Configuration on an Offline Windows 11 Machine
+# RSAT Configuration on an Offline Windows 11 Machine
 
 Remote Server Administration Tools (RSAT) is a set of tools that allows IT administrators to manage Windows Servers remotely from their local machines. In this  post, we will guide you through the process of installing and configuring RSAT on an offline Windows 11 machine. This is useful in scenarios where the target machine does not have direct internet access.
 
@@ -19,7 +19,7 @@ Before we begin, ensure you have the following:
 - An offline Windows 11 machine where you want to install RSAT.
 - A separate online Windows machine with internet access to download the RSAT installer.
 
-## Steps to Complete RSAT Installation & Configuration
+## Steps to Complete RSAT Configuration
 
 Follow these steps to install and configure RSAT on an offline Windows 11 machine:
 
@@ -39,6 +39,9 @@ Get-WindowsCapability –Online | Where-Object Name –like ‘RSAT*’
 ```bash
 Add-WindowsCapability –Online –Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 –Source .\ -LimitAccess
 ```
+
+<br><br>
+
 6. You may repeat these steps to install any RSAT tools or any other tools available within the Features on Demand disc.<br>
         For example, to install **DNS** and **Group Policy**, do the following:<br><br>
 ```bash
@@ -47,6 +50,9 @@ Add-WindowsCapability –Online –Name Rsat.Dns.Tools~~~~0.0.1.0 –Source .\ -
 ```bash
 Add-WindowsCapability –Online –Name Rsat.GroupPolicy.Management.Tools~~~~0.0.1.0 –Source .\ -LimitAccess
 ```
+
+<br><br>
+
 7. Reboot and confirm that Active Directory Users and Computers, DNS, and Group Policy Management is installed on your offline Windows 11 machine.<br>
 
 ## Conclusion
