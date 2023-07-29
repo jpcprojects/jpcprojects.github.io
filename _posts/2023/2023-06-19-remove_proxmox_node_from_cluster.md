@@ -22,7 +22,6 @@ Before proceeding, ensure that you have the following prerequisites in place:
 Follow these steps to remove a node from the cluster:
 
 1. Delete or migrate any VMs that are running on the node that you want to remove. This step ensures that no active VMs are impacted during the removal process.
-
 2. SSH into a working/running node in the Proxmox cluster.
    ```bash
    ssh username@IPAddress/Hostname
@@ -32,7 +31,6 @@ Follow these steps to remove a node from the cluster:
    pvecm nodes
    ```
 4. Identify the name of the offline node that you want to remove.
-
 5. Delete the offline node using the following command:
    ```bash
    pvecm delnodes <nodename>
