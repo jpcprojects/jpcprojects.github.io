@@ -5,9 +5,6 @@ categories: [hardware, usbdrive]
 tags: [hardware,usbdrive]
 ---
 
-<img src="/assets/img/posts/2023/bootable_usb_balenaetcher/bootable_usb_balenaetcher.png" alt="Creating a Bootable USB Drive Using balenaEtcher" style="height:400px; width:600px;" />
-
-
 A bootable USB drive is an essential tool for installing operating systems, flashing firmware, and performing various system recovery tasks. In this blog post, we will guide you through the process of creating a bootable USB drive using balenaEtcher, a user-friendly and cross-platform tool. Let's get started!
 
 ## Prerequisites
