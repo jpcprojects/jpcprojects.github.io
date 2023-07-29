@@ -46,7 +46,7 @@ If you're using a RHEL machine and need to view USB external devices, you might 
    ```bash
    /etc/fstab
    ```
-   * Add the following line to the file : 
+    Add the following line to the file : 
       ```bash
       /dev/sdb1 /media ext4 defaults 0 0
       ```
