@@ -70,26 +70,61 @@ Follow these steps to update the VM configuration:
 Follow these steps to clean up the old thick provisioned files:
 
 1. After fully testing that the VM is functional, select "Storage" from the left navigation pane.
+
+<br>
+
 2. Click "Datastore browser" in the main content area.
+
+<br>
+
 3. Browse to the virtual machine directory.
+
+<br>
+
 4. Select the original thick .vmdk file (WIN10PC.vmdk.thick earlier).
+
+<br>
+
 5. Click "Delete" and confirm the action.
 
+<br>
+
 Alternatively, you can run the following commands from the server's host command:
+
+<br>
+
 ```bash
 cd /vmfs/volumes/5a0ce14d-5574951d-af28-4ccc6a87617d/WIN10PC
 rm -rf WIN10PC.vmdk.thick
 ```
+
+<br>
+
 **VIP: BE CAREFUL ON THE NEXT STEP**
+
+<br>
+
 6. Rename the "WIN10PC-flat.vmdk" file:
+<br>
+
 ```bash
 mv WIN10PC-flat.vmdk WIN10PC-flat.vmdk.OLD
 ```
+<br>
+
 7. Launch the VM to ensure that it turns on successfully. If it does, proceed to the final step.
+
+<br>
+
 8. Delete the old "WIN10PC-flat.vmdk.OLD" and keep the "WIN10PC-thin-flat.vmdk" file. If you skip this step, extra storage will be allocated on the storage device.
+
+<br>
+
 ```bash
 rm -rf WIN10PC-flat.vmdk.OLD
 ```
+
+<br>
 
 Congratulations! You have successfully converted a vSphere VM from thick to thin provisioning. By doing so, you have optimized your storage utilization and improved resource efficiency.
 
