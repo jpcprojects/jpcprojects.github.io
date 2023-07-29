@@ -5,6 +5,8 @@ categories: [proxmox, hypervisor]
 tags: [proxmox,hypervisor]
 ---
 
+<img src="/assets/img/posts/2023/proxmox_cluster_not_ready/proxmox_cluster_not_ready.jpg" alt="Cluster not ready - no quorum?" style="height:400px; width:600px;" />
+
 
 If you encounter the error message "Cluster not ready – no quorum? (500)" in Proxmox, don't worry! In this blog post, we will walk you through the steps to fix this issue and get your Proxmox cluster back up and running smoothly.
 
