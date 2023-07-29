@@ -51,4 +51,4 @@ Add-WindowsCapability –Online –Name Rsat.GroupPolicy.Management.Tools~~~~0.0
 
 ## Conclusion
 
-Congratulations! You have successfully installed and configured RSAT on an offline Windows 11 machine. Now you can remotely manage Windows Servers using RSAT tools, even without direct internet access on the target machine.
+Congratulations! You have successfully installed and configured RSAT on an offline Windows 11 machine. Now you can remotely manage Windows computers using RSAT tools, even without direct internet access on the target machine.
