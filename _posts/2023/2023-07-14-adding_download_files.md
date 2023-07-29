@@ -22,7 +22,6 @@ Follow these steps to add the ability to download files from your Markdown websi
 1. **Prepare Your Files**: First, gather the files you want to make available for download. You can create a new directory within your website's repository to organize these files.
 2. **Upload Files to Your Repository**: Upload the files you want to share to the designated directory in your website's repository. Commit the changes to save them.
 3. **Update Your Markdown Content**: In your Markdown content, create links to the files you uploaded in the previous step. Use the following Markdown syntax to create download links as shown below gitas an example:
-
     📝 You may download my resume by clicking [here](/assets/files/JamisonJohnsonResume_2023.pdf).
 
 
