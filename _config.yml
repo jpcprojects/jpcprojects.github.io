@@ -11,7 +11,7 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Johnson Premmier Blog # author name
+  name: Johnson Premier Blog # author name
   bio: >- # tell to the world
     Welcome to my knowledge base for all things tech!
   username: username # general username
