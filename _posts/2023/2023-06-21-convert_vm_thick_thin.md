@@ -74,8 +74,7 @@ Follow these steps to clean up the old thick provisioned files:
 3. Browse to the virtual machine directory.
 4. Select the original thick .vmdk file (WIN10PC.vmdk.thick earlier).
 5. Click "Delete" and confirm the action.
-
-**Alternatively, you can run the following commands from the server's host command:**
+- **Alternatively, you can run the following commands from the server's host command:**
 ```bash
 cd /vmfs/volumes/5a0ce14d-5574951d-af28-4ccc6a87617d/WIN10PC
 rm -rf WIN10PC.vmdk.thick
