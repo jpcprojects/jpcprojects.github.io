@@ -11,7 +11,7 @@
   external: true # set true if you using external link, see below
 
 - title: resume
-  url: /assets/files/JamisonJohnsonResume_2023.pdf/
+  url: /assets/files/JamisonJohnsonResume_2023.pdf
   external: false
 
 # Example:
