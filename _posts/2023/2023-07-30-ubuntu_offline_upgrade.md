@@ -8,7 +8,7 @@ tags: [ubuntu,linux]
 <img src="/assets/img/posts/2023/ubuntu_offline_upgrade/ubuntu_offline_upgrade.jpg" alt="Upgrading Ubuntu 18.04 to 20.04 Offline Using Terminal" style="height:400px; width:600px;" />
 
 
-Upgrading your Ubuntu system to the latest LTS release can bring new features, improved performance, and security enhancements. If you're dealing with an offline Ubuntu 18.04 machine and want to upgrade to 20.04, fear not! In this blog post, we'll guide you through the process step by step using the command-line tool "do-release-upgrade".
+Upgrading your Ubuntu system a newer LTS release can bring new features, improved performance, and security enhancements. If you're dealing with an offline Ubuntu 18.04 machine and want to upgrade to 20.04, fear not! In this blog post, we'll guide you through the process step by step using the command-line tool "do-release-upgrade".
 
 ## Preparing for the Upgrade
 
