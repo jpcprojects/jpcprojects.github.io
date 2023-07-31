@@ -18,10 +18,14 @@ Before you begin, make sure you have the following:
 
 1. **Log into Hydrastor GUI**: Open your web browser and navigate to the Hydrastor GUI using the provided IP address and port (e.g., https://IPADDRESS:8585).<br>
 2. **Create CIFS File Structure**:
+
 - Click on "Filesystems" under the Settings section in the left navigation pane.
 - Click the "+ Create" button to start creating a new filesystem.<br>
+
 3. **Filesystem Options**:
+
 - Set the following options for the new filesystem:
+
      - Name: DATA
      - Export Target: Hydrastor
      - Export Type: CIFS
@@ -30,12 +34,18 @@ Before you begin, make sure you have the following:
      - Soft Quota: No Soft Quota
      - Resilience Level: 3
      - Description: Data Share<br>
+
 4. **Export Options**:
+
 - For access control, choose "Read/Write" as the Access Mode.
 - Specify the Connectable Clients using IP Address and Subnet Mask (e.g., IP Address/255.255.255.0).<br>
+
 5. **Advanced Options**:
+
 - Leave all other settings as default.<br>
+
 6. **Create the CIFS Share**:
+
 - Click the "OK" button to create the CIFS share with the specified configurations.<br>
 
 Congratulations! You have successfully created a CIFS share on your Hydrastor storage device. This share can now be accessed by clients with the specified IP addresses and subnet masks in the Connectable Clients settings.
