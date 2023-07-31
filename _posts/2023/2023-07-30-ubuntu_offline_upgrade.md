@@ -27,24 +27,24 @@ Before proceeding with the upgrade, it's always a wise idea to create backups of
 Now that you have prepared the installation media and backed up your data (if needed), let's move on to the upgrade process.
 
 1 **Mount the Ubuntu 20.04 ISO**: Open a terminal on the Ubuntu 18.04 machine and create a directory where you'll mount the ISO file. For example:<br>
-    ```bash
-    sudo mkdir /media/ubuntu20.04-iso
-    ```
+```bash
+ sudo mkdir /media/ubuntu20.04-iso
+```
 
 2 **Mount the ISO to the created directory**<br>
-    ```bash
-    sudo mount -o loop /path/to/ubuntu-20.04.iso /media/ubuntu20.04-iso
-    ```
+```bash
+sudo mount -o loop /path/to/ubuntu-20.04.iso /media/ubuntu20.04-iso
+```
 
 3 **Change to the Mounted Directory**: Navigate to the mounted ISO directory:<br>
-    ```bash
-    cd /media/ubuntu20.04-iso
-    ```
+```bash
+cd /media/ubuntu20.04-iso
+```
 
 4 **Run the Upgrade**: Initiate the upgrade process using the "do-release-upgrade" command. Use the "-d" flag, indicating that this is a development release (even though 20.04 is an LTS release, the upgrade tool treats it as a development release):<br>
-    ```bash
-    sudo do-release-upgrade -d
-    ```
+```bash
+sudo do-release-upgrade -d
+ ```
 
 *During the upgrade, you may be prompted with various questions. Answer "Y" or "Yes" when asked to continue.*<br>
 
@@ -55,9 +55,9 @@ Now that you have prepared the installation media and backed up your data (if ne
 7 **Reboot the System**: After removing the ISO and rebooting, your system will now be running Ubuntu 20.04 LTS. Double-check to ensure everything is working correctly and that you have the expected software and configurations in place.<br>
 
 8 **Confirm the Version**: You can confirm the version by running the following command in the terminal:
-    ```bash
-    less /etc/lsb-release
-    ```
+```bash
+less /etc/lsb-release
+```
 <br>
 
 # Conclusion
