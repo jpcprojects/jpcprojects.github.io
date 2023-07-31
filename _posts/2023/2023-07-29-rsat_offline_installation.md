@@ -21,12 +21,16 @@ Before we begin, ensure you have the following:
 
 Follow these steps to install and configure RSAT on an offline Windows 11 machine:
 
-1. **Obtain Access to a Features on Demand disc/data**: More information can be found
+1 **Obtain Access to a Features on Demand disc/data**: More information can be found
 [here](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities?view=windows-11).<br>
-2. **Copy Data to Local Machine**: Place the disc in the CD/DVD drive or copy the Features on Demand files to the machines C drive. <br>
-3. Launch the Services application as admin<br>
-4. Start the Windows Update (wuauserv) service<br>
-5. Launch PowerShell as a local admin<br>
+
+2 **Copy Data to Local Machine**: Place the disc in the CD/DVD drive or copy the Features on Demand files to the machines C drive. <br>
+
+3 Launch the Services application as admin<br>
+
+4 Start the Windows Update (wuauserv) service<br>
+
+5 Launch PowerShell as a local admin<br>
         Run the following commands:<br>
 ```bash
 cd D: (or to the path in which you saved the Features on Demand files)
@@ -38,8 +42,9 @@ Get-WindowsCapability –Online | Where-Object Name –like ‘RSAT*’
 Add-WindowsCapability –Online –Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 –Source .\ -LimitAccess
 ```
 <br>
-6. You may repeat these steps to install any RSAT tools or any other tools available within the Features on Demand disc.<br>
+6 You may repeat these steps to install any RSAT tools or any other tools available within the Features on Demand disc.<br>
         For example, to install **DNS** and **Group Policy**, do the following:<br>
+        
 ```bash
 Add-WindowsCapability –Online –Name Rsat.Dns.Tools~~~~0.0.1.0 –Source .\ -LimitAccess
 ```
@@ -47,7 +52,7 @@ Add-WindowsCapability –Online –Name Rsat.Dns.Tools~~~~0.0.1.0 –Source .\ -
 Add-WindowsCapability –Online –Name Rsat.GroupPolicy.Management.Tools~~~~0.0.1.0 –Source .\ -LimitAccess
 ```
 <br>
-7. Reboot and confirm that Active Directory Users and Computers, DNS, and Group Policy Management is installed on your offline Windows 11 machine.<br>
+7 Reboot and confirm that Active Directory Users and Computers, DNS, and Group Policy Management is installed on your offline Windows 11 machine.<br>
 
 ## Conclusion
 
