@@ -28,7 +28,7 @@ Now that you have prepared the installation media and backed up your data (if ne
 
 1 **Mount the Ubuntu 20.04 ISO**: Open a terminal on the Ubuntu 18.04 machine and create a directory where you'll mount the ISO file. For example:<br>
 ```bash
- sudo mkdir /media/ubuntu20.04-iso
+    sudo mkdir /media/ubuntu20.04-iso
 ```
 
 2 **Mount the ISO to the created directory**<br>
