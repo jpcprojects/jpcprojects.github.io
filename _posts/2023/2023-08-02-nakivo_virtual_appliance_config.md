@@ -24,17 +24,20 @@ Before starting the configuration, make sure you have downloaded the latest OVA 
 ## Configure Nakivo Virtual Appliance Networking
 
 1 **Launch Nakivo Virtual Appliance**: After deploying the Nakivo Virtual Appliance, launch the VM from vSphere. The startup may take a few minutes initially but will eventually prompt you to configure networking information.<br>
+
 2 **Navigate to Network Settings**: Set the hostname to "NAKIVO" and configure the network card (ens192) with the following static networking details:
    - DHCP: Disabled
    - IP Address: [IPADDRESS]
    - Netmask: [NETMASK]
    - Gateway: [GATEWAY]<br>
+
 3 **Change Default nkvuser Password**: Navigate to Security Settings and update the nkvuser password for improved security.<br>
 
 ## Create Admin Account
 
-1. **Connect to Nakivo Virtual Appliance**: Access the Nakivo Virtual Appliance web interface at https://[IPADDRESS]:4443.<br>
-2. **Create Admin Account**: When you first launch the Virtual Appliance web interface, you will be prompted to create an admin account. Provide the following details:
+1 **Connect to Nakivo Virtual Appliance**: Access the Nakivo Virtual Appliance web interface at https://[IPADDRESS]:4443.<br>
+
+2 **Create Admin Account**: When you first launch the Virtual Appliance web interface, you will be prompted to create an admin account. Provide the following details:
    - Name: [NAME]
    - Username: [USERNAME]
    - Email: [EMAIL]
@@ -46,15 +49,17 @@ Before starting the configuration, make sure you have downloaded the latest OVA 
 
 ## Configuring the New NAKIVO Virtual Appliance
 
-1. **Connect to Nakivo Virtual Appliance**: Access the Nakivo Virtual Appliance web interface at https://[IPADDRESS]:4443.<br>
-2. **Connect to vCenter**: Under Settings / Inventory, select the + sign / Virtual / VMware vCenter or ESXi Host.
+1 **Connect to Nakivo Virtual Appliance**: Access the Nakivo Virtual Appliance web interface at https://[IPADDRESS]:4443.<br>
+
+2 **Connect to vCenter**: Under Settings / Inventory, select the + sign / Virtual / VMware vCenter or ESXi Host.
    - Display Name: vCenter
    - Hostname or IP: [IPADDRESS of vCenter]
    - Username: [USERNAME]
    - Password: ****
    - Web Services Port: 443
    - Finish<br>
-3. **Create Backup Jobs**: If you are using vCenter/vSphere VMs, follow the instructions [here](https://blog.johnsonpremier.net/nakivo_backup_jobs/) to create backup jobs.<br>
+   
+3 **Create Backup Jobs**: If you are using vCenter/vSphere VMs, follow the instructions [here](https://blog.johnsonpremier.net/nakivo_backup_jobs/) to create backup jobs.<br>
 
 
 
