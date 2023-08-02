@@ -13,13 +13,13 @@ Before starting the configuration, make sure you have downloaded the latest OVA 
 
 ## Deploy Nakivo Virtual Appliance
 
-1. **Download the Nakivo OVA File**: Navigate to [Nakivo's trial download page](https://www.nakivo.com/resources/download/trial-download/), enter random information in the "Download Free Trial" box, and select "Download Free Trial." Under the "VMware Virtual Appliance (Full Solution)" section, click "Download" to get the OVA file. Save the .ova file to a location accessible by vCenter.<br>
-2. **Launch vCenter**: Access your vCenter web interface by entering the IP address or hostname in the browser.<br>
-3. **Deploy OVF Template**: In vCenter, right-click on the necessary host or cluster, and select "Deploy OVF Template."<br>
-4. **Select Local File and Upload OVA**: Choose "Local File" and click "Upload Files" to navigate to the location where vCenter has access to the Nakivo OVA file. Select the file and click "Next."<br>
-5. **Configure OVF Template**: Provide a name for the virtual machine (e.g., NAKIVO) and select a location for the virtual machine. Then, select a compute resource (e.g., cluster or host). Review the details and accept the license agreements.<br>
-6. **Select Storage and Network**: Choose the appropriate storage device and select "Thin Provision" as the virtual disk format. Select the VM Network for network connectivity.<br>
-7. **Complete Deployment**: Review all settings and click "Finish" to deploy the Nakivo Virtual Appliance.<br>
+1 **Download the Nakivo OVA File**: Navigate to [Nakivo's trial download page](https://www.nakivo.com/resources/download/trial-download/), enter random information in the "Download Free Trial" box, and select "Download Free Trial." Under the "VMware Virtual Appliance (Full Solution)" section, click "Download" to get the OVA file. Save the .ova file to a location accessible by vCenter.<br>
+2 **Launch vCenter**: Access your vCenter web interface by entering the IP address or hostname in the browser.<br>
+3 **Deploy OVF Template**: In vCenter, right-click on the necessary host or cluster, and select "Deploy OVF Template."<br>
+4 **Select Local File and Upload OVA**: Choose "Local File" and click "Upload Files" to navigate to the location where vCenter has access to the Nakivo OVA file. Select the file and click "Next."<br>
+5 **Configure OVF Template**: Provide a name for the virtual machine (e.g., NAKIVO) and select a location for the virtual machine. Then, select a compute resource (e.g., cluster or host). Review the details and accept the license agreements.<br>
+6 **Select Storage and Network**: Choose the appropriate storage device and select "Thin Provision" as the virtual disk format. Select the VM Network for network connectivity.<br>
+7 **Complete Deployment**: Review all settings and click "Finish" to deploy the Nakivo Virtual Appliance.<br>
 
 ## Configure Nakivo Virtual Appliance Networking
 
@@ -58,7 +58,7 @@ Before starting the configuration, make sure you have downloaded the latest OVA 
    - Password: ****
    - Web Services Port: 443
    - Finish<br>
-   
+
 3 **Create Backup Jobs**: If you are using vCenter/vSphere VMs, follow the instructions [here](https://blog.johnsonpremier.net/nakivo_backup_jobs/) to create backup jobs.<br>
 
 
