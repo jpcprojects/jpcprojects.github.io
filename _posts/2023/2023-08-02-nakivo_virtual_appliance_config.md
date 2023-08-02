@@ -23,13 +23,13 @@ Before starting the configuration, make sure you have downloaded the latest OVA 
 
 ## Configure Nakivo Virtual Appliance Networking
 
-1. **Launch Nakivo Virtual Appliance**: After deploying the Nakivo Virtual Appliance, launch the VM from vSphere. The startup may take a few minutes initially but will eventually prompt you to configure networking information.<br>
-2. **Navigate to Network Settings**: Set the hostname to "NAKIVO" and configure the network card (ens192) with the following static networking details:
+1 **Launch Nakivo Virtual Appliance**: After deploying the Nakivo Virtual Appliance, launch the VM from vSphere. The startup may take a few minutes initially but will eventually prompt you to configure networking information.<br>
+2 **Navigate to Network Settings**: Set the hostname to "NAKIVO" and configure the network card (ens192) with the following static networking details:
    - DHCP: Disabled
    - IP Address: [IPADDRESS]
    - Netmask: [NETMASK]
    - Gateway: [GATEWAY]<br>
-3. **Change Default nkvuser Password**: Navigate to Security Settings and update the nkvuser password for improved security.<br>
+3 **Change Default nkvuser Password**: Navigate to Security Settings and update the nkvuser password for improved security.<br>
 
 ## Create Admin Account
 
