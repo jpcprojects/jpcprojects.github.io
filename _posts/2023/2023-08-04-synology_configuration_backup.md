@@ -47,4 +47,4 @@ Regularly testing the restore process ensures that your backup is functional. To
 
 ## Conclusion
 
-Regularly backing up your Synology NAS configuration files is a fundamental aspect of data security and disaster recovery planning. By following the steps outlined in this blog post, you can safeguard your network settings, user accounts, shared folders, and more. Remember to periodically test your backup and restore processes to ensure that your backups are viable and ready for use in case of emergencies. Navigate to [Synology's Knowledge Center](hhttps://kb.synology.com/en-us/search) for additional Synology documentation.
+Regularly backing up your Synology NAS configuration files is a fundamental aspect of data security and disaster recovery planning. By following the steps outlined in this blog post, you can safeguard your network settings, user accounts, shared folders, and more. Remember to periodically test your backup and restore processes to ensure that your backups are viable and ready for use in case of emergencies. Navigate to [Synology's Knowledge Center](https://kb.synology.com/en-us/search) for additional Synology documentation.
