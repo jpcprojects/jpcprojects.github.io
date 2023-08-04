@@ -29,37 +29,21 @@ To back up your Synology NAS configuration files, follow these steps:
 
 3 **Navigate to Control Panel**: Click on the "Main Menu" in the upper left corner and select "Control Panel."<br>
 
-4 **Select Backup & Replication**: In the Control Panel, locate and click on "Backup & Replication."<br>
+4 **Select Update & Restore**: In the Control Panel, locate and click on "Update & Restore."<br>
 
-5 **Create a Backup Task**: Click on "Create" to create a new backup task.<br>
+5 **Export the Configuration File**: Click on the "Configuration Backup" tab, then click "Export" under the "Manual Export" section The .dss backup file will be automatically backed up to your local machines "Downloads" directory.<br>
 
-6 **Select Configuration Files**: Choose "Configuration Files" as the backup task type.<br>
-
-7 **Configure Backup Settings**: Fill in the following details:<br>
-   - **Task Name**: Give your backup task a meaningful name.
-   - **Destination**: Choose where to store the backup. You can select an external device, another Synology NAS, or a shared folder.
-   - **Backup Mode**: Choose the backup mode, such as "Immediate" or "Scheduled."
-   - **Version**: Decide how many versions of the backup you want to keep.
-
-8 **Advanced Settings**: Configure advanced settings like encryption, compression, and more based on your preferences.<br>
-
-9 **Schedule Backup**: If you choose "Scheduled" backup mode, set the backup schedule according to your needs.<br>
-
-10 **Review and Confirm**: Review your settings and click "Apply" to create the backup task.<br>
-
-11 **Monitor Backup Task**: Go to "Backup & Replication" and click on "Backup Task" to monitor the progress of your configuration file backup.<br>
+6 **Copy Backup File to External Device**: Go to your local machines "Downloads" directory and save the .dss file to a safe reliable location.
 
 ## Test Restore Process
 
 Regularly testing the restore process ensures that your backup is functional. To do this:
 
-1 **Access the Restore Options**: In the "Backup & Replication" section, click on "Restore" to access the restore options.<br>
+1 **Access the Restore Options**: In the "Update & Restore / Configuration Backup" section, click on "Restore" to access the restore options.<br>
 
-2 **Select Configuration Files**: Choose "Configuration Files" as the restore type.<br>
+2 **Select Configuration Files**: Choose the configuration file from your local computer as the restore type.<br>
 
-3 **Choose Backup Version**: Select the version of the backup you want to restore.<br>
-
-4 **Restore Configuration**: Follow the on-screen instructions to restore your configuration files.<br>
+3 **Restore Configuration**: Follow the on-screen instructions to restore your configuration files.<br>
 
 ## Conclusion
 
