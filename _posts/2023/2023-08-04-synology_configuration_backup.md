@@ -8,8 +8,6 @@ tags: [synology, nas, configuration, backup]
 <img src="/assets/img/posts/2023/synology_configuration_backup/synology_configuration_backup.jpg" alt="CSynology NAS Configuration File Backup Process" style="height:400px; width:600px;" />
 
 
-# Synology NAS Configuration File Backup Process
-
 The configuration of your Synology NAS is a critical part of your data management strategy. To ensure the safety of your configurations and settings, it's essential to perform regular backups. In this blog post, we'll guide you through the process of backing up your Synology NAS configuration files to ensure data security and easy recovery.
 
 ## Why Backup Synology NAS Configuration Files
