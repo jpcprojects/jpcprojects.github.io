@@ -24,34 +24,31 @@ STIG (Security Technical Implementation Guide) checklists are comprehensive guid
 
 Performing software assessments involves multiple steps to ensure the security and compliance of your software systems:
 
-1. **Identify Target Software**: Work with your Cyber Security or Information Assurance team to determine the software applications that need to be assessed for security vulnerabilities and compliance.<br>
+1 **Identify Target Software**: Work with your Cyber Security or Information Assurance team to determine the software applications that need to be assessed for security vulnerabilities and compliance.<br>
 
-2. **Select Appropriate STIG Checklists**: Choose the relevant STIG checklists that align with the software and its environment. STIGs cover various software types and platforms.<br>
+2 **Select Appropriate STIG Checklists**: Choose the relevant STIG checklists that align with the software and its environment. STIGs cover various software types and platforms.<br>
 
-3. **Study STIG Guidelines**: Thoroughly review the selected STIG checklists to understand the required security configurations, settings, and measures.<br>
+3 **Study STIG Guidelines**: Thoroughly review the selected STIG checklists to understand the required security configurations, settings, and measures.<br>
 
-4. **Prepare the Environment**: Set up a controlled testing environment to avoid affecting production systems during assessments.<br>
+4 **Prepare the Environment**: Set up a controlled testing environment to avoid affecting production systems during assessments.<br>
 
-5. **Apply STIG Guidelines**: Apply the recommended security configurations based on the STIG guidelines to the software application.<br>
+5 **Apply STIG Guidelines**: Apply the recommended security configurations based on the STIG guidelines to the software application.<br>
 
-6. **Validate Configurations**: Test and validate the applied configurations to ensure they do not adversely affect the software's functionality.<br>
+6 **Validate Configurations**: Test and validate the applied configurations to ensure they do not adversely affect the software's functionality.<br>
 
-7. **Security Testing**: Perform security testing, including vulnerability scanning, penetration testing, and code analysis, to identify any remaining vulnerabilities.<br>
+7 **Security Testing**: Perform security testing, including vulnerability scanning, penetration testing, and code analysis, to identify any remaining vulnerabilities.<br>
 
-8. **Document Findings**: Document the assessment findings, including configurations made, vulnerabilities detected, and any required actions for mitigation.<br>
+8 **Document Findings**: Document the assessment findings, including configurations made, vulnerabilities detected, and any required actions for mitigation.<br>
 
-9. **Mitigate Vulnerabilities**: Address the identified vulnerabilities and issues according to the assessment findings.<br>
+9 **Mitigate Vulnerabilities**: Address the identified vulnerabilities and issues according to the assessment findings.<br>
 
-10. **Retest and Verify**: Retest the software to verify that the vulnerabilities have been properly addressed and that the configurations are effective.<br>
+10 **Retest and Verify**: Retest the software to verify that the vulnerabilities have been properly addressed and that the configurations are effective.<br>
 
 ## Benefits of Software Hardening and Assessments
 
-- **Enhanced Security**: Software hardening and assessments significantly improve the security posture of software applications, reducing the risk of breaches and attacks.
-
-- **Compliance**: Following STIG checklists and security best practices ensures compliance with industry regulations and standards.
-
-- **Reduced Attack Surface**: By eliminating unnecessary features, services, and configurations, the attack surface is minimized.
-
+- **Enhanced Security**: Software hardening and assessments significantly improve the security posture of software applications, reducing the risk of breaches and attacks.<br>
+- **Compliance**: Following STIG checklists and security best practices ensures compliance with industry regulations and standards.<br>
+- **Reduced Attack Surface**: By eliminating unnecessary features, services, and configurations, the attack surface is minimized.<br>
 - **Early Vulnerability Detection**: Assessments help identify vulnerabilities early in the software development lifecycle, allowing for timely mitigation.
 
 ## Conclusion
