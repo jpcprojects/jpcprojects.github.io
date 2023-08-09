@@ -19,7 +19,6 @@ Before you begin, make sure you have the following:
 ## Step-by-Step Guide
 
 1 **SSH into the Proxmox Server**
-
 Open your terminal and SSH into your Proxmox server using the following command:
 
 ```bash
@@ -27,7 +26,6 @@ ssh username@IPADDRESS
 ```
 
 2 **Create a Working Directory**
-
 Create a directory to organize your import files:
 
 ```bash
@@ -35,7 +33,6 @@ mkdir ova_import && cd ova_import
 ```
 
 3 **Download the Nakivo OVA File**
-
 Navigate to the Nakivo website and download the OVA file. You can do this by:
 
 - Visiting https://www.nakivo.com/resources/download/trial-download/
@@ -44,7 +41,6 @@ Navigate to the Nakivo website and download the OVA file. You can do this by:
 - Clicking the "Download" button under the "VMware Virtual Appliance (Full Solution" section
 
 4 **Copy the .ova File to Proxmox Server**
-
 Use the scp command to copy the downloaded OVA file from your host machine to the Proxmox server's working directory:
 
 ```bash
@@ -52,7 +48,6 @@ scp NAKIVO_Backup_Replication_VA_v10.9.0_Full_Solution_TRIAL.ova root@IPADDRESS:
 ```
 
 5 **Create a New VM from the OVA**
-
 Use the qm importovf command to create a new virtual machine from the extracted OVA:
 
 ```bash
@@ -60,7 +55,6 @@ qm importovf 122 ./NAKIVO_Backup_Replication_VA_v10.9.0_Full_Solution_TRIAL.ovf 
 ```
 
 6 **Launch the Virtual Machine**
-
 Launch the VM to ensure connectivity:
 
 Right-click on the VM
