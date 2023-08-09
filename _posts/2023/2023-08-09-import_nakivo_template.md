@@ -1,9 +1,11 @@
 ---
 title: Importing Nakivo OVA Template on Proxmox Server
-date: 2023-08-10 01:00:00 -0500
+date: 2023-08-09 01:00:00 -0500
 categories: [Proxmox, Nakivo]
 tags: [Proxmox, Nakivo, virtualization]
 ---
+
+<img src="/assets/img/posts/2023/proxmox_cluster_not_ready/proxmox_cluster_not_ready.jpg" alt="Importing Nakivo OVA Template on Proxmox Server" style="height:400px; width:600px;" />
 
 Proxmox is a powerful virtualization platform that allows you to manage your virtual machines efficiently. If you're looking to import a Nakivo OVA template into your Proxmox server, this guide will walk you through the process step by step.
 
