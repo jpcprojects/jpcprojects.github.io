@@ -16,7 +16,7 @@ To begin, let's install the Remmina package on your RHEL 8 machine:
 1 Open a terminal.<br>
 2 Run the following command to install Remmina:<br>
 ```bash
-sudo dnf install remmina
+sudo dnf install remmina -y
 ```
 ## Connecting to Windows Machine
 
