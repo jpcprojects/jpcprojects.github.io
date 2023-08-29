@@ -5,7 +5,7 @@ categories: [Linux, Remote]
 tags: [Linux, Remote]
 ---
 
-<img src="/assets/img/posts/2023/remmina_rdp_client/remmina_rdp_client.png" alt="Remmina RDP Client - Connecting to Windows Machines on RHEL 8" style="height:400px; width:600px;" />
+<img src="/assets/img/posts/2023/remmina_rdpclient/remmina_rdpclient.jpg" alt="Remmina RDP Client - Connecting to Windows Machines on RHEL 8" style="height:400px; width:600px;" />
 
 In the realm of remote desktop connections, Remmina stands out as a versatile and powerful tool for accessing Windows machines from your RHEL 8 system. In this blog post, we will walk you through the process of installing the Remmina package on RHEL 8, establishing connections to both Windows 10 and Windows 11 machines, and troubleshooting common connection issues.
 
