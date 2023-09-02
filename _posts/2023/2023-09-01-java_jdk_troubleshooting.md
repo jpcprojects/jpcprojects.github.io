@@ -8,11 +8,11 @@ tags: [Java, JDK]
 ![Java JDK](/assets/img/posts/2023/java_jdk_troubleshooting/java_jdk_troubleshooting.jpg)
 
 
-So, you've successfully installed JDK 11 on your Windows machine, but when you try to check the Java version using the 'java --version' command, it doesn't seem to work. No need to worry; this is a common issue related to environment variables, and we're here to help you resolve it. In this blog post, we'll guide you through the troubleshooting steps to ensure that the 'java' command works as expected.
+So, you've successfully installed JDK 11 on your Windows machine, but when you try to check the Java version using the `java --version` command, it doesn't seem to work. No need to worry; this is a common issue related to environment variables, and we're here to help you resolve it. In this blog post, we'll guide you through the troubleshooting steps to ensure that the `java` command works as expected.
 
 ## Troubleshooting Steps
 
-Follow these steps to troubleshoot and resolve the 'java --version' issue after installing JDK 11:
+Follow these steps to troubleshoot and resolve the `java --version` issue after installing JDK 11:
 
 1 **Check JDK Installation Directory**:
    - Verify the installation directory of JDK 11. By default, it should be something like `C:\Program Files\Java\jdk-11.x.x`.
@@ -37,7 +37,7 @@ Follow these steps to troubleshoot and resolve the 'java --version' issue after 
    - If you had a command prompt open before setting the environment variables, close it and open a new one. This ensures that the updated environment variables take effect.
 
 6 **Check 'java' Command**:
-   - Ensure that you are running the 'java' command without any typos or case sensitivity issues. It should be `java`, not `Java`.
+   - Ensure that you are running the `java` command without any typos or case sensitivity issues. It should be `java`, not `Java`.
 
 7 **Verify Environment Variables**:
    - You can verify that the environment variables are set correctly by opening a new command prompt and running:
@@ -45,7 +45,7 @@ Follow these steps to troubleshoot and resolve the 'java --version' issue after 
      echo %JAVA_HOME%
      ```
 
-If you've followed these steps carefully and in order, you should now be able to run the 'java --version' command and see the expected Java version information.
+If you've followed these steps carefully and in order, you should now be able to run the `java --version` command and see the expected Java version information.
 
 If, for any reason, you are still encountering issues, there might be other factors at play, such as conflicts with other software or potential system misconfigurations. In such cases, it might be helpful to seek assistance from someone with experience in troubleshooting software installation and environment variable issues.
 
