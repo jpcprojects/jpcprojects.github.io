@@ -36,19 +36,19 @@ With your VM selected, click on the "Backup/Backup now" option from the side men
 
 You'll now see a dialog box to configure the backup options for your VM. Here are some important settings:
 
-- **Backup Mode**: Choose between `Snapshot` and `Suspend`. Snapshot backups are taken while the VM is running, while Suspend backups briefly pause the VM for consistency.
+**Backup Mode**: Choose between `Snapshot` and `Suspend`. Snapshot backups are taken while the VM is running, while Suspend backups briefly pause the VM for consistency.
 
-- **Storage**: Select the storage location where you want to store the backup file. Ensure you have enough free space on the selected storage.
+**Storage**: Select the storage location where you want to store the backup file. Ensure you have enough free space on the selected storage.
 
-- **Compression**: You can choose to compress the backup to save disk space.
+**Compression**: You can choose to compress the backup to save disk space.
 
-- **Encryption**: If security is a concern, enable encryption for the backup file.
+**Encryption**: If security is a concern, enable encryption for the backup file.
 
-- **Backup ID**: You can assign a unique ID for your backup.
+**Backup ID**: You can assign a unique ID for your backup.
 
-- **Include VM Configuration**: Enabling this option includes the VM configuration file in the backup.
+**Include VM Configuration**: Enabling this option includes the VM configuration file in the backup.
 
-- **Start Backup**: Click this button to start the backup process.
+**Start Backup**: Click this button to start the backup process.
 
 Once you've configured your options, click "Start Backup."
 
