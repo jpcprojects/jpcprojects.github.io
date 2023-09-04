@@ -50,11 +50,11 @@ You'll now see a dialog box to configure the backup options for your VM. Here ar
 
 **Start Backup**: Click this button to start the backup process.
 
-Once you've configured your options, click "Start Backup."
+Once you've configured your options, click `Start Backup`
 
 ## Step 5: Monitor the Backup Progress
 
-You can monitor the backup progress in the "Task Viewer" at the bottom of the Proxmox web interface. Wait for the backup to complete; the time taken depends on the size of your VM.
+You can monitor the backup progress in the `Task Viewer` at the bottom of the Proxmox web interface. Wait for the backup to complete; the time taken depends on the size of your VM.
 
 
 ## Step 6: Verify the Backup
