@@ -73,4 +73,4 @@ Congratulations! You have successfully installed Docker-CE on your RHEL8 machine
 
 For more information on Proxmox, consider exploring their official Proxmox VE documentation index:
 
-📝 [Docker Documentation:](https://docs.docker.com//) The official Docker documentation provides great additional information.
+📝 [Docker Documentation:](https://docs.docker.com/) The official Docker documentation provides great additional information.
