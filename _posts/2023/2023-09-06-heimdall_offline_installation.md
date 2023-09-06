@@ -82,7 +82,7 @@ linuxserver/heimdall
 sudo docker ps
 ```
 
-- Access the Heimdall WebGUI using one of the following URLs: <br>
+Access the Heimdall WebGUI using one of the following URLs: <br>
 http://IPADDRESS:8056 <br>
 http://HOSTNAME:8056 <br>
 https://IPADDRESS:7543 <br>
