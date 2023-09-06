@@ -67,6 +67,6 @@ Importing a Nakivo OVA template into your Proxmox server is a straightforward pr
 
 ### Resourceful Websites for Further Information: ###
 
-[Proxmox Official Documentation:](https://pve.proxmox.com/pve-docs/pve-admin-guide.html) The official Proxmox documentation provides detailed information on various aspects of using and managing Proxmox servers.
+📝 [Proxmox Official Documentation:](https://pve.proxmox.com/pve-docs/pve-admin-guide.html) The official Proxmox documentation provides detailed information on various aspects of using and managing Proxmox servers.
 
-[Nakivo Knowledge Base:](https://helpcenter.nakivo.com/) Nakivo's knowledge base offers a wealth of articles and guides related to their software, including deployment and configuration on various platforms.
+📝 [Nakivo Knowledge Base:](https://helpcenter.nakivo.com/) Nakivo's knowledge base offers a wealth of articles and guides related to their software, including deployment and configuration on various platforms.

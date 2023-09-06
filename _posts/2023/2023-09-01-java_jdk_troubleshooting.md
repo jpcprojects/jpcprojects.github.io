@@ -53,5 +53,5 @@ If, for any reason, you are still encountering issues, there might be other fact
 
 For more detailed information and troubleshooting tips, consider exploring the following resource:
 
-[Oracle's Java SE Documentation](https://docs.oracle.com/en/java/javase/11/): The official documentation provides comprehensive guides and troubleshooting advice for Java SE, including installation and environment variables.
+📝 [Oracle's Java SE Documentation](https://docs.oracle.com/en/java/javase/11/): The official documentation provides comprehensive guides and troubleshooting advice for Java SE, including installation and environment variables.
 

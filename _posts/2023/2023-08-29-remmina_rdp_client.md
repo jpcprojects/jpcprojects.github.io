@@ -47,4 +47,4 @@ Remmina simplifies remote desktop connections by providing a user-friendly inter
 
 For more information on RDP and Remmina, consider exploring these valuable resources:
 
-[Remmina Official Documentation:](https://remmina.org/) The official Remmina documentation provides detailed guides, tips, and troubleshooting information for a comprehensive Remmina experience.
+📝 [Remmina Official Documentation:](https://remmina.org/) The official Remmina documentation provides detailed guides, tips, and troubleshooting information for a comprehensive Remmina experience.
