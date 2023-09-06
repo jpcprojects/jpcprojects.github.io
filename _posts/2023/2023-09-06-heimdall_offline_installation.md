@@ -16,19 +16,19 @@ Before we begin, make sure you have access to a machine with internet connectivi
 
 ## Step 1: Find and Pull the Heimdall Docker Image
 
-- Navigate to [Docker Hub](https://hub.docker.com) using an internet-connected machine.
+Navigate to [Docker Hub](https://hub.docker.com) using an internet-connected machine.
 
-- In the search bar, look for the Heimdall Docker image. For example, you can search for "heimdall."
+In the search bar, look for the Heimdall Docker image. For example, you can search for "heimdall."
 
-- Copy the "docker pull" command provided on the Docker Hub page.  
+Copy the "docker pull" command provided on the Docker Hub page.  
 
-- Execute the "docker pull" command on your internet-connected machine to download the Heimdall Docker image:
+Execute the "docker pull" command on your internet-connected machine to download the Heimdall Docker image:
 
 ```bash
 sudo docker pull linuxserver/heimdall
 ```
 
-- Confirm that the Heimdall Docker image has been successfully downloaded:
+Confirm that the Heimdall Docker image has been successfully downloaded:
 
 ```bash
 sudo docker images
@@ -36,31 +36,31 @@ sudo docker images
 
 ## Step 2: Save the Docker Image to a File
 
-- To transfer the Docker image to your offline RHEL8 machine, you'll need to save it to a file. Use the following command, replacing "heimdall_image.docker" with your preferred filename:
+To transfer the Docker image to your offline RHEL8 machine, you'll need to save it to a file. Use the following command, replacing "heimdall_image.docker" with your preferred filename:
 
 ```bash
 sudo docker save -o heimdall_image.docker linuxserver/heimdall
 ```
 
-- The Docker image file will be saved in the current directory where you ran the command.
+The Docker image file will be saved in the current directory where you ran the command.
 
 ## Step 3: Copy the Docker Image to the Offline Machine
 
-- Copy the saved Docker image file (heimdall_image.docker) to your offline RHEL8 machine. You can place it in a temporary directory like "/opt" for easy access.
+Copy the saved Docker image file (heimdall_image.docker) to your offline RHEL8 machine. You can place it in a temporary directory like "/opt" for easy access.
 
 ## Step 4: Load the Docker Image on the Offline Machine
 
-- On your offline RHEL8 machine, load the Docker image from the saved file using the following command:
+On your offline RHEL8 machine, load the Docker image from the saved file using the following command:
 
 ```bash
 sudo docker load -i heimdall_image.docker
 ```
 
-- The Heimdall Docker image will be loaded onto your offline machine.
+The Heimdall Docker image will be loaded onto your offline machine.
 
 ## Step 5: Run Heimdall
 
-- Copy and paste the following command into the offline machine's terminal to run Heimdall. This command also configures Heimdall to start automatically:
+Copy and paste the following command into the offline machine's terminal to run Heimdall. This command also configures Heimdall to start automatically:
 
 ```bash
 docker run -d --name=heimdall \
@@ -74,7 +74,7 @@ docker run -d --name=heimdall \
 linuxserver/heimdall
 ```
 
-- After the configuration is complete, reboot the machine for the changes to take effect.
+After the configuration is complete, reboot the machine for the changes to take effect.
 
 ## Step 6: Verify Heimdall Installation
 
