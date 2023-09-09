@@ -1,8 +1,8 @@
 ---
 title: Install and Configure Heimdall on a RHEL8 Machine Without Internet Access
 date: 2023-09-06 01:00:00 -0500
-categories: [Docker, Linux]
-tags: [Docker, Linux]
+categories: [docker, linux]
+tags: [docker, linux]
 ---
 
 ![Install and Configure Heimdall on a RHEL8 Machine Without Internet Access](/assets/img/posts/2023/heimdall_offline_installation/heimdall_offline_installation.png)

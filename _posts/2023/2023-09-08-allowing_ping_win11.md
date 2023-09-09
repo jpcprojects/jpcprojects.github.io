@@ -1,8 +1,8 @@
 ---
 title: How to Allow Ping Through Windows 11 Firewall
 date: 2023-09-08 01:00:00 -0500
-categories: [Windows11, Networking]
-tags: [Windows11, Networking]
+categories: [windows11, networking]
+tags: [windows11, networking]
 ---
 
 ![How to Allow Ping Through Windows 11 Firewall](/assets/img/posts/2023/allowing_ping_win11/allowing_ping_win11.jpg)

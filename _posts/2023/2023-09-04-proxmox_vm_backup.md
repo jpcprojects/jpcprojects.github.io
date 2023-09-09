@@ -1,8 +1,8 @@
 ---
 title: How to Back Up a Proxmox Virtual Machine
 date: 2023-09-04 01:00:00 -0500
-categories: [Proxmox, Virtualization, Virtual Machines]
-tags: [Proxmox, Virtualization, Virtual Machines]
+categories: [proxmox, virtualization, virtual machines]
+tags: [proxmox, virtualization, virtual machines]
 ---
 
 ![How to Back Up a Proxmox Virtual Machine](/assets/img/posts/2023/proxmox_vm_backup/proxmox_vm_backup.jpg)

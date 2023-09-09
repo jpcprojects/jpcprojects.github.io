@@ -1,8 +1,8 @@
 ---
 title: Deprecated Linux Commands
 date: 2023-08-22 01:00:00 -0500
-categories: [Linux]
-tags: [Linux]
+categories: [linux]
+tags: [linux]
 ---
 
 <img src="/assets/img/posts/2023/deprecated_linux_commands/deprecated_linux_commands.jpg" alt="Deprecated Linux Commands" style="height:400px; width:600px;" />

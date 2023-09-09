@@ -1,8 +1,8 @@
 ---
 title: Remmina RDP Client - Connecting to Windows Machines on RHEL 8
 date: 2023-08-29 01:00:00 -0500
-categories: [Linux, Remote]
-tags: [Linux, Remote]
+categories: [linux, remote]
+tags: [linux, remote]
 ---
 
 <img src="/assets/img/posts/2023/remmina_rdpclient/remmina_rdpclient.jpg" alt="Remmina RDP Client - Connecting to Windows Machines on RHEL 8" style="height:400px; width:600px;" />

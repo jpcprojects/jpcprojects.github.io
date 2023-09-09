@@ -1,8 +1,8 @@
 ---
 title: Troubleshooting 'java --version' Issue After JDK 11 Installation
 date: 2023-09-01
-categories: [Java, JDK]
-tags: [Java, JDK]
+categories: [java, jdk]
+tags: [java, jdk]
 ---
 
 ![Java JDK](/assets/img/posts/2023/java_jdk_troubleshooting/java_jdk_troubleshooting.jpg)
