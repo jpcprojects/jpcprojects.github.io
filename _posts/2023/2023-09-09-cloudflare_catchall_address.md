@@ -28,7 +28,7 @@ To enable Catch-All Addresses in Cloudflare, follow these simple steps:
 
 5 **Choose an Action**: In the Action drop-down menu, you can specify what should be done with the emails that hit the Catch-All net. Depending on your preferences and needs, you can choose different actions. Refer to [Cloudflare's documentation](https://developers.cloudflare.com/email-routing/setup/email-routing-addresses/) for more detailed information on available email rule actions.
 
-6 **Save Your Settings**: Don't forget to save your changes. Look for the "Save" button or a similar option, and click it to confirm your configuration.
+6 **Save Your Settings**: Don't forget to save your changes. Look for the "Save" button or a similar option, and click it to confirm your configuration. Allow 15-20 minutes for syncronization.
 
 That's it! You've successfully enabled Catch-All Email Configuration in Cloudflare. Now, even if someone makes a minor typo when sending emails to your domain, you can rest assured that these messages will still find their way to your inbox.
 
