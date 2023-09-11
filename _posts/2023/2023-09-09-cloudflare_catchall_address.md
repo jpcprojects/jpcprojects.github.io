@@ -1,7 +1,7 @@
 ---
 title: Enable Catch-All Email Configuration in Cloudflare
 date: 2023-09-09 01:00:00 -0500
-categories: [cloduflare, website, email]
+categories: [cloudflare, website, email]
 tags: [cloudflare, website, email]
 ---
 
