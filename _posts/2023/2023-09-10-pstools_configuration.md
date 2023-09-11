@@ -18,9 +18,9 @@ PsTools is a set of command-line utilities developed by Microsoft's Sysinternals
 
 Before you start using PsTools, you need to ensure the following prerequisites are met:
 
-- **Windows Operating System**: PsTools are designed to work on Windows systems. Both the local and remote machines should be running a compatible version of Windows.
+**Windows Operating System**: PsTools are designed to work on Windows systems. Both the local and remote machines should be running a compatible version of Windows.
 
-- **Administrator Access**: You should have administrator-level access to the local and remote machines to execute PsTools effectively.
+**Administrator Access**: You should have administrator-level access to the local and remote machines to execute PsTools effectively.
 
 ## Installation
 
