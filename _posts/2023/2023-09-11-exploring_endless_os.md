@@ -34,15 +34,15 @@ The user interface of Endless OS is designed to be intuitive and user-friendly. 
 
 Installing Endless OS is straightforward:
 
-1 Visit the [Endless OS download page](https://endlessos.com/download/) and select the edition you prefer (Basic or Full). The Basic edition is smaller in size and can be expanded with additional content later.
+1. Visit the [Endless OS download page](https://endlessos.com/download/) and select the edition you prefer (Basic or Full). The Basic edition is smaller in size and can be expanded with additional content later.
 
-2 Create a bootable USB drive using tools like [Rufus](https://rufus.ie/) or [Etcher](https://www.balena.io/etcher/).
+1. Create a bootable USB drive using tools like [Rufus](https://rufus.ie/) or [Etcher](https://www.balena.io/etcher/).
 
-3 Boot your computer from the USB drive, and you'll be guided through the installation process.
+1. Boot your computer from the USB drive, and you'll be guided through the installation process.
 
-4 Follow the on-screen instructions to set up your user account and configure system settings.
+1. Follow the on-screen instructions to set up your user account and configure system settings.
 
-5 Once installed, you can explore the preloaded content and install additional apps from the Endless App Center.
+1. Once installed, you can explore the preloaded content and install additional apps from the Endless App Center.
 
 ## Who Should Use Endless OS?
 
