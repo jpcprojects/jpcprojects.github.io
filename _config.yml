@@ -22,7 +22,7 @@ author:
   avatar: /assets/img/posts/jpc-logo3.jpg # change with your own avatar
 
 # URL settings
-url: "https://blog.johnsonpremier.net/" #
+url: "https://jpcprojects.github.io" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
