@@ -1,8 +1,8 @@
 ---
 title: Install Docker-CE on a RHEL8 Machine Without Internet Access
 date: 2023-09-05 01:00:00 -0500
-categories: [docker, linux]
-tags: [docker, linux]
+categories: [docker, linux, offline]
+tags: [docker, linux, offline]
 ---
 
 ![Install Docker-CE on a RHEL8 Machine Without Internet Access](/assets/img/posts/2023/dockerce_offline_install/dockerce_offline_install.jpeg)

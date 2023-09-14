@@ -58,4 +58,4 @@ Endless OS is suitable for a wide range of users:
 
 Endless OS stands out as a user-friendly Linux distribution that bridges the gap between traditional operating systems and Linux. Its focus on offline functionality, educational content, and straightforward interface makes it a compelling choice for a variety of users. Whether you're a student, educator, or someone looking to explore the world of Linux, Endless OS has something to offer.
 
-📝Explore more about Endless OS on their [official website](https://endlessos.com/) and discover how it can simplify your computing experience.
+📝 Explore more about Endless OS on their [official website](https://endlessos.com/) and discover how it can simplify your computing experience.

@@ -1,8 +1,8 @@
 ---
 title: RSAT Configuration on an Offline Windows 11 Machine
 date: 2023-07-29 05:00:00 -0500
-categories: [windows11]
-tags: [windows11]
+categories: [windows, offline]
+tags: [windows, offline]
 ---
 
 <img src="/assets/img/posts/2023/rsat_offline_installation/rsat_offline_installation.jpg" alt="RSAT Installation & Configuration on an Offline Windows 11 Machine" style="height:400px; width:600px;" />
