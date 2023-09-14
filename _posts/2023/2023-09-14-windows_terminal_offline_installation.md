@@ -17,8 +17,8 @@ Before we begin, you'll need access to a machine with internet connectivity to d
 ### On a Machine with Internet Access
 
 1 **Download Windows Terminal**:
-   - Navigate to [Microsoft Terminal Releases](https://github.com/microsoft/terminal/releases).
-   - Download `Microsoft.WindowsTerminal_1.17.11461.0_8wekyb3d8bbwe.msixbundle`.
+   * Navigate to [Microsoft Terminal Releases](https://github.com/microsoft/terminal/releases).
+   * Download `Microsoft.WindowsTerminal_1.17.11461.0_8wekyb3d8bbwe.msixbundle`.
 
 2 **Rename and Extract**:
    - Rename the downloaded file to `Microsoft.WindowsTerminal_1.17.11461.0_8wekyb3d8bbwe.zip`.
