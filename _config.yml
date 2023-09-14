@@ -1,12 +1,12 @@
 # Site settings
-title: Johnson Premier Blog # site title
+title: Johnson Premier Projects # site title
 description: >- # site description
-  Welcome to my knowledge base for all things tech!
+  Welcome to my completed projects page!
 
 lang: en-US # default lang
 timezone: America/New_York # set your timezone
 image: assets/img/profile-pic1.jpg # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/jpcposts/jpcposts.github.io# site repo [optional]
+repo: https://github.com/jpcprojects/jpcprojects.github.io# site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
