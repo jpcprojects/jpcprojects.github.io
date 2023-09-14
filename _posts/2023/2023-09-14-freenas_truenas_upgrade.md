@@ -74,6 +74,8 @@ With the configuration safely backed up, you can proceed with the update process
 
 Updating FreeNAS servers to TrueNAS can be a complex yet necessary task to benefit from the latest features and improvements. With a well-defined plan and careful execution, as outlined in this blog post, you can ensure a successful transition while safeguarding your data and system integrity.
 
-If everything goes well on the backup server (NAS2), repeat the same process for the primary server (NAS1). Regularly backing up configurations and following best practices are key to maintaining a reliable storage environment.
+Once everything went well on backup server (NAS2), I repeated the same process for the primary server (NAS1). 
 
+Regularly backing up configurations, updating sofware, and following best practices are key to maintaining a reliable environment.
 
+📝 Investigate more about TrueNAS on their [official documentation hub](https://www.truenas.com/docs/).
