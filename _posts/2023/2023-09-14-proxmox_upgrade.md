@@ -10,7 +10,7 @@ tags: [proxmox, server]
 
 # Proxmox Server Upgrade: From 7.4-3 to 8.x
 
-In August 2023, I embarked on an exciting project to upgrade four Proxmox servers from version 7.4.3 to the latest Proxmox VE 8.x release. This upgrade was a critical step to ensure that our virtualization infrastructure remained up-to-date with the latest features, security enhancements, and performance improvements. In this blog post, I'll take you through the journey of planning and executing this upgrade successfully.
+In August 2023, I embarked on an exciting project to upgrade four Proxmox servers from version 7.4-3 to the latest Proxmox VE 8.x release. This upgrade was a critical step to ensure that our virtualization infrastructure remained up-to-date with the latest features, security enhancements, and performance improvements. In this blog post, I'll take you through the journey of planning and executing this upgrade successfully.
 
 ## Project Overview
 
