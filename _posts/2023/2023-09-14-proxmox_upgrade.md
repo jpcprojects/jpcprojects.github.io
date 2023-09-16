@@ -8,15 +8,15 @@ tags: [proxmox, server]
 ![proxmox_upgrade1](/assets/img/posts/2023/proxmox_upgrade/proxmox_upgrade1.jpg)
 
 
-# Proxmox Server Upgrade: From 7.4-3 to 8.0
+# Proxmox Server Upgrade: From 7.4-3 to 8.x
 
-In August 2023, I embarked on an exciting project to upgrade four Proxmox servers from version 7.4.3 to the latest Proxmox VE 8.0 release. This upgrade was a critical step to ensure that our virtualization infrastructure remained up-to-date with the latest features, security enhancements, and performance improvements. In this blog post, I'll take you through the journey of planning and executing this upgrade successfully.
+In August 2023, I embarked on an exciting project to upgrade four Proxmox servers from version 7.4.3 to the latest Proxmox VE 8.x release. This upgrade was a critical step to ensure that our virtualization infrastructure remained up-to-date with the latest features, security enhancements, and performance improvements. In this blog post, I'll take you through the journey of planning and executing this upgrade successfully.
 
 ## Project Overview
 
 ### Servers Involved
 
-We had four Proxmox servers in our environment, and all of them required an upgrade to Proxmox VE 8.0.
+We had four Proxmox servers in our environment, and all of them required an upgrade to Proxmox VE 8.x.
 
 1. **Proxmox Server A**
    - Initial Version: Proxmox VE 7.4-3
@@ -144,9 +144,9 @@ Following each server's upgrade, we conducted thorough testing and verification.
 
 ## Conclusion
 
-The journey of upgrading our Proxmox servers from version 7.4-3 to 8.0 was a significant milestone in ensuring the reliability and performance of our virtualization infrastructure. By meticulously planning, executing, and testing each upgrade, we minimized downtime and maintained a robust IT environment.
+The journey of upgrading our Proxmox servers from version 7.4-3 to 8.x was a significant milestone in ensuring the reliability and performance of our virtualization infrastructure. By meticulously planning, executing, and testing each upgrade, we minimized downtime and maintained a robust IT environment.
 
-Keeping your virtualization platform up to date is crucial for security, stability, and accessing the latest features. As we move forward, we're excited to leverage the capabilities of Proxmox VE 8.0 to meet the evolving needs of our organization.
+Keeping your virtualization platform up to date is crucial for security, stability, and accessing the latest features. As we move forward, we're excited to leverage the capabilities of Proxmox VE 8.x to meet the evolving needs of our organization.
 
 
 📝 For more information aboht Proxmox updates, visit the [Proxmox VE Documentation Index](https://pve.proxmox.com/pve-docs/).
