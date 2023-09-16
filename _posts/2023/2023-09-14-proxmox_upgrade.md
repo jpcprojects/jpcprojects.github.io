@@ -12,6 +12,8 @@ tags: [proxmox, server]
 
 In August 2023, I embarked on an exciting project to upgrade four Proxmox servers from version 7.4-3 to the latest Proxmox VE 8.x release. This upgrade was a critical step to ensure that our virtualization infrastructure remained up-to-date with the latest features, security enhancements, and performance improvements. In this blog post, I'll take you through the journey of planning and executing this upgrade successfully.
 
+Released on June 22, 2023, Proxmox VE 8 introduces several notable enhancements over its predecessor, version 7.4-x. These upgrades include upgrading of the [Proxmox Backup Server (PBS) 3.0](https://pbs.proxmox.com/wiki/index.php/Roadmap#Proxmox_Backup_Server_3.0), offering integrated, automated backup solutions. This feature streamlines the backup process, enhancing data protection and recovery capabilities. Furthermore, Proxmox VE 8 elevates container management with the integration of LXC 4.0 and the latest version of Docker, providing improved container orchestration and efficiency. The adoption of the latest [Ceph storage solution](https://pve.proxmox.com/pve-docs/pveceph.1.html#:~:text=Ceph%20is%20a%20distributed%20object,Snapshot%20support) to enhance storage scalability and reliability, making it an optimal choice for handling larger workloads. Enhanced security features, such as improved certificate handling and secure boot support, reinforce the platform's defense against evolving cyber threats. The refreshed web-based management interface ensures a more user-friendly experience, simplifying the management of virtualization infrastructure.
+
 ## Project Overview
 
 ### Servers Involved
