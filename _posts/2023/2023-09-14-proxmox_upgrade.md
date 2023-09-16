@@ -18,19 +18,19 @@ In August 2023, I embarked on an exciting project to upgrade four Proxmox server
 
 We had four Proxmox servers in our environment, and all of them required an upgrade to Proxmox VE 8.x.
 
-1. **Proxmox Server A**
+ **Proxmox Server A**
    - Initial Version: Proxmox VE 7.4-3
    - Upgrade Completed: 08/04/23
 
-2. **Proxmox Server B**
+ **Proxmox Server B**
    - Initial Version: Proxmox VE 7.4-3
    - Upgrade Completed: 08/11/23
 
-3. **Proxmox Server C**
+ **Proxmox Server C**
    - Initial Version: Proxmox VE 7.4-3
    - Upgrade Completed: 08/18/23
 
-4. **Proxmox Server D**
+ **Proxmox Server D**
    - Initial Version: Proxmox VE 7.4-3
    - Upgrade Completed: 08/25/23
 
@@ -74,12 +74,12 @@ The upgrade itself was executed in a phased approach, one server at a time, to m
     ```
     **Note**: 
     
-    Confirm that the update/upgrade was successful by doing the following :
+    *Confirm that the update/upgrade was successful by doing the following :*
           
-    Log into the proxmox server GUI, click on the node name on the left side, click Summary, next to the PVE Manager Version you should see the latest proxmox version. In my case, the version was `pve-manager/7.4-16` 
+    *Log into the proxmox server GUI, click on the node name on the left side, click Summary, next to the PVE Manager Version you should see the latest proxmox version. In my case, the version was `pve-manager/7.4-16`*
 
 
-  - Run additional  commands:
+  Run additional  commands:
 
     ```
     # clean apt cache, to reclaim any space being used by the apt package cache
@@ -96,9 +96,9 @@ The upgrade itself was executed in a phased approach, one server at a time, to m
 
     **Note**:
 
-    Monitor the terminal during the upgrade process because you will be prompted to answer questions about services and or configuration files. I typically press `Enter` unless I know I want to make a specific change.
+    *Monitor the terminal during the upgrade process because you will be prompted to answer questions about services and or configuration files. I typically press `Enter` unless I know I want to make a specific change.*
 
-  - Run the final commands:
+  Run the final commands:
 
     ```
     # clean apt cache, to reclaim any space being used by the apt package cache
@@ -107,7 +107,7 @@ The upgrade itself was executed in a phased approach, one server at a time, to m
     reboot now
     ```
 
-- Continue with post-upgrade steps, as explained below.
+- Continue with post-upgrade verification, as explained below.
 
 
 ![proxmox_upgrade3](/assets/img/posts/2023/proxmox_upgrade/proxmox_upgrade3.jpg)
@@ -117,19 +117,19 @@ The upgrade itself was executed in a phased approach, one server at a time, to m
 
 - **Backup**: Similar to Proxmox Server A.
 - **Upgrade Process**: Similar to Proxmox Server A.
-- Continue with post-upgrade steps.
+- Continue with post-upgrade verification.
 
 #### Proxmox Server C (08/15/23)
 
 - **Backup**: Similar to Proxmox Server A.
 - **Upgrade Process**: Similar to Proxmox Server A.
-- Continue with post-upgrade steps.
+- Continue with post-upgrade verification.
 
 #### Proxmox Server D (08/20/23)
 
 - **Backup**: Similar to Proxmox Server A.
 - **Upgrade Process**: Similar to Proxmox Server A.
-- Continue with post-upgrade steps.
+- Continue with post-upgrade verification.
 
 ### 3. Post-Upgrade Verification
 
