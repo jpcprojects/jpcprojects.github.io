@@ -1,5 +1,5 @@
 ---
-title: Upgrading VMware ESXi Hosts to 7.0 - A Comprehensive Guide
+title: Upgrading VMware ESXi Hosts to 7.0
 date: 2023-10-01 01:00:00 -0500
 categories: [vmware, vsphere, virtualization, server]
 tags: [vmware, vsphere, virtualization, server]
@@ -95,7 +95,6 @@ o	Navigate to http://IPADDRESS/downloads/******.tgz via a web browser and downlo
 
 ![vsphere_upgrade3](/assets/img/posts/2023/vsphere_upgrade/vsphere_upgrade3.jpg)
 
-<img src="assets/img/posts/2023/vsphere_upgrade/vsphere_upgrade3.jpg" alt="vsphere_upgrade3" width="300px" />
 
 -	Install ESXi 6.7
     - Insert the VMware ESXi 6.7 installation disk and boot from the disc. Then, VMware ESXi 6.7 Installer starts and reads files from the disk.
