@@ -104,7 +104,6 @@ o	Navigate to http://IPADDRESS/downloads/******.tgz via a web browser and downlo
   - Create a new folder named `ESXi7.0_Upgrade` on the root of the ESXi hosts file system
   - Go inside of the `ESXi7.0_Upgrade` folder & upload the offline upgrade zip file to the ESXi host
   - The file location will be `/vmfs/volumes/NAME_OF_FILESYSTEM/ESXi7.0_Upgrade/ESXi-7.0.3-19193900-NEC-GEN-7.0-05.zip` 
-
 -	Burn the 6.7 ISO image to a DVD
 -	Burn the 7.0 ISO image to a DVD
 -	Remove the server from the rack, remove the old boot drive [USB-DOM 2GB] and install the new boot drive [Intel SSD 200GB]
