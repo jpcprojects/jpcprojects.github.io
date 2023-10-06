@@ -34,7 +34,7 @@ The plan for these servers are to [backup the ESXi config], [remove the USB-DOM 
 
    ==========================================================================
 
-We needed to replace the boot drive in Server4. This server had a 4GB USB-DOM boot drive that need to be updated to a new 200GB SSD. This servers boot drive was already configured with vSphere 7.0.3. Although this 4GB USB-DOM is sufficient for vSphere 7.x, it will be obsolete and not allowed in vSphere 8.x. This boot drive upgrade was only nececessary to keep all of the servers uniform.
+We needed to replace the boot drive in Server4. This server had a 4GB USB-DOM boot drive that needed to be updated to a new 200GB SSD. This servers boot drive was already configured with vSphere 7.0.3. Although this 4GB USB-DOM is sufficient for vSphere 7.x, it will be obsolete and not allowed in vSphere 8.x. This boot drive upgrade was only nececessary to keep all of the servers uniform.
 
 The plan for this one is to  [backup the ESXi config], [remove the USB-DOM boot drive], [insert the SSD], [install VMware ESXi, 7.0.3, 19193900 via a CD/DVD], then [restore the ESXi config].
 
