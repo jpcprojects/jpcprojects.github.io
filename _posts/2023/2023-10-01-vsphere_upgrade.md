@@ -224,7 +224,7 @@ NOTE : I received the error `vmware cannot synchronize host disconnected from ho
 ![vsphere_upgrade6](/assets/img/posts/2023/vsphere_upgrade/vsphere_upgrade6.jpg)
 
 
-#### Server4 (Boot Drive Replacement and vSphere Reimage):
+#### Server4 (Boot Drive Replacement and vSphere Reconfiguration):
 
 - Ensure that the ESXi configuration has been backed up as detailed in the beginning of this project.
 - Remove the server from the rack, remove the old boot drive [USB-DOM 4GB] and install the new boot drive [Intel SSD 200GB]
