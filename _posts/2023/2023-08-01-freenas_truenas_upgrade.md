@@ -1,6 +1,6 @@
 ---
 title: FreeNAS Update to TrueNAS
-date: 2023-09-07 01:00:00 -0500
+date: 2023-08-01 01:00:00 -0500
 categories: [truenas, freenas, nas, backup]
 tags: [truenas, freenas, nas, backup]
 ---

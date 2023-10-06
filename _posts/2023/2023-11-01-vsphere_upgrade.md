@@ -1,6 +1,6 @@
 ---
 title: Upgrading VMware ESXi Hosts to 7.0
-date: 2023-10-01 01:00:00 -0500
+date: 2023-11-01 01:00:00 -0500
 categories: [vmware, vsphere, virtualization, server]
 tags: [vmware, vsphere, virtualization, server]
 ---

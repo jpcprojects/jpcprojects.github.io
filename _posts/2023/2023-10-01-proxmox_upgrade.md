@@ -1,8 +1,8 @@
 ---
 title: Proxmox Server Upgrade
-date: 2023-09-14 01:00:00 -0500
-categories: [proxmox, server]
-tags: [proxmox, server]
+date: 2023-10-01 01:00:00 -0500
+categories: [proxmox, server, virtualization]
+tags: [proxmox, server, virtualization]
 ---
 
 ![proxmox_upgrade1](/assets/img/posts/2023/proxmox_upgrade/proxmox_upgrade1.jpg)
