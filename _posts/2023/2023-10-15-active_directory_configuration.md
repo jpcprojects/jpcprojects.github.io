@@ -129,10 +129,6 @@ Click `AD DS` / Click the flag icon on the top and select `Promote this server t
 
 In conclusion, the completion of this Active Directory configuration project in December 2022 marked a significant milestone in my system administration journey. Active Directory, as the backbone of many network infrastructures, now stands as a well-structured, secure, and efficiently managed domain environment. The project encompassed essential tasks, from setting up the domain controller to adding user accounts, group accounts, Organizational Units (OUs), and computer accounts. 
 
-<br>
-
 By demonstrating both GUI-based and PowerShell-driven approaches, we've expanded our capabilities, enabling me to accommodate a broad spectrum of network management scenarios. This project not only enhanced my expertise in Active Directory administration but also underscored the pivotal role Active Directory plays in modern IT environments. With this robust foundation in place, I am better prepared to tackle future network challenges and evolving requirements, ensuring a secure and organized digital workspace for our organization. Active Directory remains a cornerstone of any network's success, and this project has fortified that foundation.
-
-<br>
 
 📝 For more information about Microsoft Active Directory, visit the [Active Directory Domain Services Overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview).
