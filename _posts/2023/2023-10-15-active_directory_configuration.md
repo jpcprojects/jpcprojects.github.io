@@ -108,9 +108,63 @@ You have now successfully configured Active Directory Domain Servers (AD DS) on 
 ## 2. Configure the New Domain Controller
 
 Launch Server Manager
+
 Click `AD DS` / Click the flag icon on the top and select `Promote this server to a domain controller` link
 
+![configure_dc0](/assets/img/posts/2023/active_directory_configuration/configure_dc0.png)
 
+Check the box `Add a new forest` and input your desired domain name information in the `Root domain name` box. Click `Next`
+
+![configure_dc1](/assets/img/posts/2023/active_directory_configuration/configure_dc1.png)
+
+
+Select `Forest functional level` and `Domain functional level`, the latest available version currently is `Windows Server 2016`, select this option. Set a safe/secure password for Directory Services Restore Mode (DSRM). Click `Next`
+
+![configure_dc2](/assets/img/posts/2023/active_directory_configuration/configure_dc2.png)
+
+
+In the `DNS Options` section, leave all defaults, click `Next`
+
+![configure_dc3](/assets/img/posts/2023/active_directory_configuration/configure_dc3.png)
+
+
+Ensure a `NetBIOS domain name`, then click `Next`
+
+![configure_dc4](/assets/img/posts/2023/active_directory_configuration/configure_dc4.png)
+
+
+Leave the `Paths` section as default, click `Next`
+
+![configure_dc5](/assets/img/posts/2023/active_directory_configuration/configure_dc5.png)
+
+
+Review your configured settings and click `Next`
+
+![configure_dc6](/assets/img/posts/2023/active_directory_configuration/configure_dc6.png)
+
+
+Click `Install`, after the install finishes, the system will reboot automatically.
+
+![configure_dc7](/assets/img/posts/2023/active_directory_configuration/configure_dc7.png)
+
+
+After reboot, the logon named will be changed to `Domain name\` `User name`
+
+![configure_dc8](/assets/img/posts/2023/active_directory_configuration/configure_dc8.png)
+
+
+==========================================================================
+
+
+## 3. Join Windows Machine to Domain via GUI
+
+Log into the machine as a local administrator
+
+Change DNS Settings to point to the Domain Controller
+
+- Right click on `Settings`
+- Click `Network Connections`
+- Click `Ethernet`
 
 
 
