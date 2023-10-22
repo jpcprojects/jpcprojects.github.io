@@ -166,6 +166,59 @@ Change DNS Settings to point to the Domain Controller
 - Click `Network Connections`
 - Click `Ethernet`
 
+![join_domain_gui0](/assets/img/posts/2023/active_directory_configuration/join_domain_gui0.png)
+![join_domain_gui1](/assets/img/posts/2023/active_directory_configuration/join_domain_gui1.png)
+
+
+Add the IP address of the domain controller in the `Preferred DNS` box, click `Save`
+
+![join_domain_gui2](/assets/img/posts/2023/active_directory_configuration/join_domain_gui2.png)
+
+
+Right click on Windows icon and select `System`, then Click `Domain or workgroup` link next to `Related links` section. You will be prompted for admin rights.
+
+![join_domain_gui3](/assets/img/posts/2023/active_directory_configuration/join_domain_gui3.png)
+
+In the `Computer Name` tab, select the `Change` button
+
+![join_domain_gui4](/assets/img/posts/2023/active_directory_configuration/join_domain_gui4.png)
+
+
+Check the `Domain` box and enter the domain information. Click `OK`
+
+![join_domain_gui5](/assets/img/posts/2023/active_directory_configuration/join_domain_gui5.png)
+
+
+Domain admin credentials are required.
+
+![join_domain_gui6](/assets/img/posts/2023/active_directory_configuration/join_domain_gui6.png)
+
+After successful authentication, a welcome message is displayed. Restart the machine.
+
+![join_domain_gui7](/assets/img/posts/2023/active_directory_configuration/join_domain_gui7.png)
+![join_domain_gui8](/assets/img/posts/2023/active_directory_configuration/join_domain_gui8.png)
+![join_domain_gui9](/assets/img/posts/2023/active_directory_configuration/join_domain_gui9.png)
+
+You may now authentication with any domain user. Click on `Other user` and authentication with a domain user account.
+
+![join_domain_gui10](/assets/img/posts/2023/active_directory_configuration/join_domain_gui10.png)
+
+==========================================================================
+
+## 4. Join Windows Machine to Domain via Powershell
+
+Login as a user who has local admin rights and launch powershell as admin
+
+Display network interfaces
+```bash
+Get-NetIPInterface -AddressFamily IPv4
+```
+
+
+
+
+
+
 
 
 
