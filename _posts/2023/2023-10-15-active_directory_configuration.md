@@ -214,17 +214,56 @@ Display network interfaces
 Get-NetIPInterface -AddressFamily IPv4
 ```
 
+![join_domain_powershell0](/assets/img/posts/2023/active_directory_configuration/join_domain_powershell0.png)
 
 
+Change DNS setting to refer to AD DS domain controller
+```bash
+Set-DnsClientServerAddress -InterfaceIndex 7 -ServerAddresses “192.168.1.113” -PassThru
+```
+
+![join_domain_powershell1](/assets/img/posts/2023/active_directory_configuration/join_domain_powershell1.png)
+
+Join to the domain. 
+- For `username` add the correct domain user
+- For `userpassword` add the correct password for that user
+```bash
+Add-Computer -DomainName “jpc.net” -Credential (New-Object PSCredential “username”, (ConvertTo-SecureString -AsPlainText “userpassword” -Force))
+```
+
+Restart the computer
+```bash
+Restart-Computer -Force
+```
+
+After restarting, verify to logon as a domain user
+
+![join_domain_powershell2](/assets/img/posts/2023/active_directory_configuration/join_domain_powershell2.png)
+
+Make sure the domain information is registered correctly
+
+![join_domain_powershell3](/assets/img/posts/2023/active_directory_configuration/join_domain_powershell3.png)
 
 
+==========================================================================
 
 
+## 5. Add Active Directory Users via GUI
+
+Launch Server Manager
+
+Click `Tools` / `Active Directory users and Computers`
 
 
+.
 
+.
 
+.
 
+.
+
+.
 
 
 
