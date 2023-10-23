@@ -556,7 +556,48 @@ Remove-ADGroup -Identity testgroup2johnson
 ## 10. Add Active Directory Organizational Units (OUs) via GUI
 
 Launch `Active Directory Users and Computers`
+
 Right click on your domain name on the left tree and select `New` then `Organizational Unit`
+
+Launch `Active Directory Users and Computers`
+
+Right click on your domain name on the left tree and select `New` then `Organizational Unit`
+
+![add_ou_gui0](/assets/img/posts/2023/active_directory_configuration/add_ou_gui0.png)
+
+Create a name for your OU, then click `OK`
+
+![add_ou_gui1](/assets/img/posts/2023/active_directory_configuration/add_ou_gui1.png)
+
+A new OU called `Testing` is now created.
+
+![add_ou_gui2](/assets/img/posts/2023/active_directory_configuration/add_ou_gui2.png)
+
+
+## 11. Add Active Directory Organizational Units (OUs) via PowerShell
+
+Launch PowerShell as Admin
+
+Show the current list of AD groups
+```powershell
+Get-ADOrganizationalUnit -Filter * | Format-Table DistinguishedName
+```
+
+![add_ou_powershell0](/assets/img/posts/2023/active_directory_configuration/add_ou_powershell0.png)
+
+Add the `testing2` organizational unit
+```powershell
+New-ADOrganizationalUnit Testing2 `
+-Path “DC=jpc,DC=net” `
+-ProtectedFromAccidentalDeletion $True
+```
+
+![add_ou_powershell1](/assets/img/posts/2023/active_directory_configuration/add_ou_powershell1.png)
+
+Verify the creation of the Organizational Unit
+
+![add_ou_powershell2](/assets/img/posts/2023/active_directory_configuration/add_ou_powershell2.png)
+
 
 .
 
