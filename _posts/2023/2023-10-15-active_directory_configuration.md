@@ -494,7 +494,7 @@ echo "Configuration completed. You can now log in with AD credentials."
 
 Launch `Active Directory Users and Computers`
 
-Right click on `Users` and select `Group`
+Right click on `Users` , then click on `New` and select `Group`
 
 ![add_group_gui0](/assets/img/posts/2023/active_directory_configuration/add_group_gui0.png)
 
@@ -515,6 +515,14 @@ Now, to add a user to the group, you may do the following :
 ![add_group_gui3](/assets/img/posts/2023/active_directory_configuration/add_group_gui3.png)
 
 
+## 9. Add Active Directory Group Accounts via PowerShell
+
+Launch PowerShell as admin
+
+Show the current list of AD groups
+```powershell
+Get-ADGroup -Filter * | Format-Table DistinguishedName
+```
 
 .
 
