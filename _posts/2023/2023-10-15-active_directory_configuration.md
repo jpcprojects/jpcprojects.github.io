@@ -514,6 +514,7 @@ Now, to add a user to the group, you may do the following :
 
 ![add_group_gui3](/assets/img/posts/2023/active_directory_configuration/add_group_gui3.png)
 
+==========================================================================
 
 ## 9. Add Active Directory Group Accounts via PowerShell
 
@@ -553,6 +554,8 @@ Delete a group
 Remove-ADGroup -Identity testgroup2johnson
 ```
 
+==========================================================================
+
 ## 10. Add Active Directory Organizational Units (OUs) via GUI
 
 Launch `Active Directory Users and Computers`
@@ -569,6 +572,7 @@ A new OU called `Testing` is now created.
 
 ![add_ou_gui2](/assets/img/posts/2023/active_directory_configuration/add_ou_gui2.png)
 
+==========================================================================
 
 ## 11. Add Active Directory Organizational Units (OUs) via PowerShell
 
@@ -594,18 +598,65 @@ Verify the creation of the Organizational Unit
 
 ![add_ou_powershell2](/assets/img/posts/2023/active_directory_configuration/add_ou_powershell2.png)
 
-
-.
-
-.
-
-.
-
-.
-
-.
+==========================================================================
 
 
+## 12. Add Active Directory Computer Account via GUI
+
+Launch `Active Directory Users and Computers`
+
+Right click on your `Computers]` on the left tree and select `New` then `Computer`
+
+![add_computer_gui0](/assets/img/posts/2023/active_directory_configuration/add_computer_gui0.png)
+
+Input any computer name, this example was `JPCserver`, then click `OK`
+
+![add_computer_gui1](/assets/img/posts/2023/active_directory_configuration/add_computer_gui1.png)
+
+The new computer has now been added to the `Computers` group
+
+==========================================================================
+
+
+## 13. Add Active Directory Computer Account via PowerShell
+
+Launch PowerShell as admin
+
+Show the current list of AD computers
+
+```powershell
+Get-ADComputer -Filter * | Format-Table DistinguishedName
+```
+
+![add_computer_powershell0](/assets/img/posts/2023/active_directory_configuration/add_computer_powershell0.png)
+
+Add a new computer called `JPCserver2`
+
+```powershell
+New-ADComputer -Name JPCserver2
+```
+
+![add_computer_powershell1](/assets/img/posts/2023/active_directory_configuration/add_computer_powershell1.png)
+
+Verify the newly added computer
+
+```powershell
+Get-ADComputer -Filter * | Format-Table DistinguishedName
+```
+
+![add_computer_powershell2](/assets/img/posts/2023/active_directory_configuration/add_computer_powershell2.png)
+
+
+Deleting computer accounts
+
+
+```powershell
+Remove-ADComputer -Identity “CN=JPCserver2,CN=Computers,DC=srv,DC=world”
+```
+
+- Choose `yes` when prompted.
+
+![add_computer_powershell3](/assets/img/posts/2023/active_directory_configuration/add_computer_powershell3.png)
 
 
 ==========================================================================
