@@ -496,16 +496,23 @@ Launch `Active Directory Users and Computers`
 
 Right click on `Users` and select `Group`
 
+![add_group_gui0](/assets/img/posts/2023/active_directory_configuration/add_group_gui0.png)
 
+ 
+Create a name for the group, then leave the Group scope default as `Global` and the Group type default as `Security`. Then press `OK`
 
+![add_group_gui1](/assets/img/posts/2023/active_directory_configuration/add_group_gui1.png)
 
+Now when you navigate back to domain.name/Users you can see the newly created `testgroup` group.
 
+![add_group_gui2](/assets/img/posts/2023/active_directory_configuration/add_group_gui2.png)
 
+Now, to add a user to the group, you may do the following : 
+- Right click on the group and select `Properties`
+- Select the [Member tab] and select the `Add` button
+- Input the username for this group, click `Check Names` then click `OK`
 
-
-
-
-
+![add_group_gui3](/assets/img/posts/2023/active_directory_configuration/add_group_gui3.png)
 
 
 
