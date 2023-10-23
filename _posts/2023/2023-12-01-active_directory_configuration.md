@@ -1,6 +1,6 @@
 ---
 title: Active Directory Configuration
-date: 2023-10-15 01:00:00 -0500
+date: 2023-12-01 01:00:00 -0500
 categories: [active_directory, domain_controller, server]
 tags: [active_directory, domain_controller, server]
 ---
