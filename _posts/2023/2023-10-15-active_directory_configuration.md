@@ -559,10 +559,6 @@ Launch `Active Directory Users and Computers`
 
 Right click on your domain name on the left tree and select `New` then `Organizational Unit`
 
-Launch `Active Directory Users and Computers`
-
-Right click on your domain name on the left tree and select `New` then `Organizational Unit`
-
 ![add_ou_gui0](/assets/img/posts/2023/active_directory_configuration/add_ou_gui0.png)
 
 Create a name for your OU, then click `OK`
