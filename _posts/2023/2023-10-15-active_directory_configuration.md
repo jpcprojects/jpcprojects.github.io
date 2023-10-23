@@ -524,6 +524,40 @@ Show the current list of AD groups
 Get-ADGroup -Filter * | Format-Table DistinguishedName
 ```
 
+![add_group_powershell0](/assets/img/posts/2023/active_directory_configuration/add_group_powershell0.png)
+
+Add a new group named `testgroup2`
+```powershell
+New-ADGroup testgroup2 `
+-GroupScope Global `
+-GroupCategory Security `
+-Description “Testing Group 2”
+```
+
+Verify the creation of the group
+```powershell
+Get-ADGroup -Identity testgroup2
+```
+
+![add_group_powershell1](/assets/img/posts/2023/active_directory_configuration/add_group_powershell1.png)
+
+Delete a user from a group
+
+```powershell
+Remove-ADGroupMember -Identity testgroup2 -Members jamison.johnson
+```
+
+Delete a group
+
+```powershell
+Remove-ADGroup -Identity testgroup2johnson
+```
+
+## 10. Add Active Directory Organizational Units (OUs) via GUI
+
+Launch `Active Directory Users and Computers`
+Right click on your domain name on the left tree and select `New` then `Organizational Unit`
+
 .
 
 .
