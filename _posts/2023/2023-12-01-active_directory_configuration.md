@@ -551,7 +551,7 @@ Remove-ADGroupMember -Identity testgroup2 -Members jamison.johnson
 Delete a group
 
 ```powershell
-Remove-ADGroup -Identity testgroup2johnson
+Remove-ADGroup -Identity testgroup2
 ```
 
 ==========================================================================
