@@ -316,7 +316,7 @@ Delete a user account
 Remove-ADUser -Identity “CN=JPCuser,CN=Users,DC=JPC,DC=net”
 ```
 
-**Select the `Yes to All]` option.**
+**Select the `Yes to All` option.**
 
 ![add_user_powershell4](/assets/img/posts/2023/active_directory_configuration/add_user_powershell4.png)
 
