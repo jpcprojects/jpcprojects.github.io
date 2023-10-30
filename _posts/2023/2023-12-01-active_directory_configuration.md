@@ -605,7 +605,7 @@ Verify the creation of the Organizational Unit
 
 Launch `Active Directory Users and Computers`
 
-Right click on your `Computers]` on the left tree and select `New` then `Computer`
+Right click on your `Computers` on the left tree and select `New` then `Computer`
 
 ![add_computer_gui0](/assets/img/posts/2023/active_directory_configuration/add_computer_gui0.png)
 
