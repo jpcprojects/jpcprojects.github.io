@@ -1,11 +1,11 @@
 ---
 title: VMware ESXi Host Upgrade
-date: 2023-12-01 01:00:00 -0500
+date: 2024-02-01 01:00:00 -0500
 categories: [vmware, vsphere, virtualization, server]
 tags: [vmware, vsphere, virtualization, server]
 ---
 
-![vsphere_upgrade1](/assets/img/posts/2023/vsphere_upgrade/vsphere_upgrade1.png)
+![vsphere_upgrade1](/assets/img/posts/2024/vsphere_upgrade/vsphere_upgrade1.png)
 
 
 In September 2022, a critical project was undertaken to upgrade four VMware ESXi hosts from version 6.7 to the latest 7.0 release. These hosts played a pivotal role in our virtualization infrastructure, and the upgrade was essential to stay current with new features, security enhancements, and performance improvements. This blog post will take you through the meticulous process of planning and executing the upgrade successfully. This project was completed on an air-gapped network.
@@ -43,7 +43,7 @@ The plan for this one is to  [backup the ESXi config], [remove the USB-DOM boot 
    - Upgrade Completed: 09/23/22
 
 
-![vsphere_upgrade2](/assets/img/posts/2023/vsphere_upgrade/vsphere_upgrade2.png)
+![vsphere_upgrade2](/assets/img/posts/2024/vsphere_upgrade/vsphere_upgrade2.png)
 
 
 
@@ -95,7 +95,7 @@ o	Navigate to http://IPADDRESS/downloads/******.tgz via a web browser and downlo
   - Click on the `Go To Downloads` link
   - We are using NEC hosts in the  lab, so we will download the [NEC Custom Image for VMware ESXi 7.0 U3 Offline Bundle] file by clicking on [Download Now] link.
 
-![vsphere_upgrade3](/assets/img/posts/2023/vsphere_upgrade/vsphere_upgrade3.png)
+![vsphere_upgrade3](/assets/img/posts/2024/vsphere_upgrade/vsphere_upgrade3.png)
 
 
 
@@ -110,7 +110,7 @@ o	Navigate to http://IPADDRESS/downloads/******.tgz via a web browser and downlo
 
 **Below is what the old boot drive [USB-DOM] looks like.
 
-![vsphere_upgrade4](/assets/img/posts/2023/vsphere_upgrade/vsphere_upgrade4.jpg)
+![vsphere_upgrade4](/assets/img/posts/2024/vsphere_upgrade/vsphere_upgrade4.jpg)
 
 
 ### Install ESXi 6.7
@@ -190,7 +190,7 @@ NOTE : I received the error `vmware cannot synchronize host disconnected from ho
 
 *I received this message because there was a [Task Console] task stuck trying to go into Maintenance Mode. After I canceled that task, I was able to [Right click on the server / Connection/Connect] and I was then able to view this server in vCenter successfully*
 
-![vsphere_upgrade5](/assets/img/posts/2023/vsphere_upgrade/vsphere_upgrade5.jpg)
+![vsphere_upgrade5](/assets/img/posts/2024/vsphere_upgrade/vsphere_upgrade5.jpg)
 
 
 ### Serial Number Reconfiguration
@@ -221,7 +221,7 @@ NOTE : I received the error `vmware cannot synchronize host disconnected from ho
     - Click on the ESXi Host; click on the VMs tab; turn on any VM that needs to be on
     - Right click on the VM that is off and select Power/Power On.
 
-![vsphere_upgrade6](/assets/img/posts/2023/vsphere_upgrade/vsphere_upgrade6.jpg)
+![vsphere_upgrade6](/assets/img/posts/2024/vsphere_upgrade/vsphere_upgrade6.jpg)
 
 
 #### Server4 (Boot Drive Replacement and vSphere Reconfiguration):
@@ -270,7 +270,7 @@ vim-cmd hostsvc/firmware/restore_config 1 /tmp/configBundle.tgz
 
 This restore should be quick, after the restore the server will automatically reboot.
 
-![vsphere_upgrade7](/assets/img/posts/2023/vsphere_upgrade/vsphere_upgrade7.jpg)
+![vsphere_upgrade7](/assets/img/posts/2024/vsphere_upgrade/vsphere_upgrade7.jpg)
 
 
 ### Power on VMs within the ESXi host 
